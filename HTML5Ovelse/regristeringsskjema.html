@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 2, øvelse 3</title>
+</head>
+<body>
+    <header>
+        <h1>Registreringsskjema</h1>
+    </header>
+<main>
+    <section>
+        <form>
+            <label>
+            <input type="text" name="navn" placeholder="navn" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+            </label>
+
+            <label>
+            <input type="email" name="e-post" placeholder="eksempel@gmail.com" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+            </label>
+
+        
+            <label> 
+            <input type="password" name="password" placeholder="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            </label>
+
+            <label> 
+            <input type="tall" name="alder" placeholder="alder" type="number" min="18" max="99" required>
+            </label>
+
+            <label>
+            <input type="number" name="telefonnr" placeholder="tlf nr" pattern="[0-9]{8,12}" required>
+            </label>
+
+            <label> 
+            <input type="date" name="fødselsdato" placeholder="fødselsdato" type="date" max="2023-12-31" required>
+            </label>
+
+            <label>         
+                    <input type="radio" id="mann" name="gender" value="mann" required>
+                    <label for="mann">Mann</label>
+                    <input type="radio" id="kvinne" name="gender" value="kvinne">
+                    <label for="kvinne">Kvinne</label>
+                    <input type="radio" id="annet" name="gender" value="annet">
+                    <label for="annet">Annet</label>
+            </label>    
+
+            <label> 
+            <select id="land">
+                <option value="Norge">Norge</option>
+                <option value="Sverige">Sverige</option>
+                <option value="Danmark">Danmark</option>
+              </select>
+            </label>
+
+              <input type="checkbox" name="personvern" value="personvern">
+                <label for="personvern">huk av for å sende inn skjema.</label>
+
+              <input type="submit" value="sende">
+            
+        </form>
+    </section>
+</main>
+    <footer>
+        <p>kontakt meg på epost: <a href="mailto:Samiisac7@gmail.com">epost</a></p>
+        <p>Sami isac</p>
+    </footer>
+</body>
+</html>
