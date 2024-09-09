@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tabeller</title>
+    <style>
+        td, th {
+            border: 1px solid #000;
+            padding: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: left;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2"></th>
+                <th>Navn</th>
+                <th>Masse (jorden = 1)</th>
+                <th>Diameter</th>
+                <th>Tetthet</th>
+                <th>Tyngdekraft</th>
+                <th>Antall måner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" colspan="2">terrestetiske planeter</th>
+                <td>Merkur</td>
+                <td>0,055</td>
+                <td>4879</td>
+                <td>5,43</td>
+                <td>3,70</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Venus</td>
+                <td>12 104</td>
+                <td>0,015</td>
+                <td>578</td>
+                <td>8,87</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Jorden</td>
+                <td>12 756</td>
+                <td> 1 </td>
+                <td>0,80</td>
+                <td> 1 </td>
+            </tr>
+            <tr>
+                <td>Mars</td>
+                <td>6787</td>
+                <td>0,107</td>
+                <td>3,83</td>
+                <td>3,71</td>
+                <td> 2 </td>
+            </tr>
+            <tr>
+                <th rowspan="4">jovianske planeter</th>
+                <th rowspan="2">gass kjemper</th>
+                <td>Jupiter</td>
+                <td>102 984</td>
+                <td>317,8</td>
+                <td>1,33</td>
+                <td>14,8</td>
+                <td> 80 </td>
+            </tr>
+            <tr>
+                <td>Sauturn</td>
+                <td>120 036</td>
+                <td>80,1</td>
+                <td>14,4</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <th rowspan="2">is kjemper</th>
+                <td>uranus</td>
+                <td>51 128</td>
+                <td>14,6</td>
+                <td>1,27</td>
+                <td>8,0</td>
+                <td> 27 </td>
+            </tr>
+            <tr>
+                <td>Neptun</td>
+                <td>44528</td>
+                <td>17,2</td>
+                <td>1,64</td>
+                <td>17,1</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <th colspan="2">Dvergplanet</th>
+                <td>pluto</td>
+                <td>950</td>
+                <td>0,022</td>
+                <td>122</td>
+                <td>10,2</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        </table>
+    </main>
+</body>
+</html>
