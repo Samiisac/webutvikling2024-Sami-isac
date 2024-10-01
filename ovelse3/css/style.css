@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+
+}
+
+header {
+    background-image: url(../image/220602_DD_The-Best-Ever-Cheeseburger_267.jpg); 
+    background-size: cover;   
+    background-position: center; 
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 1px 1;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #333;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 10px 15px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer li {
+    display: inline;
+
+}
+
+main {
+    max-width: 70%;
+    min-width: 400px;
+    margin: 0;
+    padding: 20px;
+
+}
+
+articles-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: 1 1 300px;
+    max-width: 400px;
+    
+
+}
+
+aside {
+    flex-basis: 30%;
+    min-width: 350px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+@media (max-width: 768px) {
+    .innhold-omslag {
+        flex-direction: column;
+    }
+} 
+
+.aside {
+    flex-basis: 100%;
+
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.main {
+    flex: 1;
+    min-width: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.aside {
+    flex-basis: 30%;
+    min-width: 350px;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
+.aside {
+    flex-basis: 100%;
+
+}
+
+.main {
+    flex-basis: 100%;
+
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+}
+
+button:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    
+}
